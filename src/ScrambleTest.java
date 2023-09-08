@@ -12,6 +12,7 @@ class ScrambleTest {
     @Test
     void scrambleWord() {
 
+
         assertEquals("TNA", Scramble.scrambleWord("TAN"));
         assertEquals("BARCADABARA", Scramble.scrambleWord("ABRACADABRA"));
         assertEquals("WHOA", Scramble.scrambleWord("WHOA"));
